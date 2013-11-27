@@ -75,4 +75,6 @@ public class Student implements Serializable{
 		
 		return this.getFirstName().equals(student.getFirstName()) && this.getLastName().equals(student.getLastName()); 
 	}
+	
+	public void emptyMethod(){}
 }
